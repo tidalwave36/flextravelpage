@@ -1,6 +1,26 @@
-nav {
+nav {}
 
-}
 #cover {
     background-image: url("buffaloriverview.JPG");
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item-left {
+    flex: 50%;
+}
+
+.flex-item-right {
+    flex: 50%;
+}
+
+@media (max-width: 800px) {
+
+    .flex-item-right,
+    .flex-item-left {
+        flex: 100%;
     }
+}

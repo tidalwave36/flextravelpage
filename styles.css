@@ -1,4 +1,11 @@
-nav {}
+nav {
+    display: block;
+    font-size: large;
+}
+
+div {
+    display: block;
+}
 
 #cover {
     background-image: url("buffaloriverview.JPG");
@@ -7,6 +14,8 @@ nav {}
 .flex-container {
     display: flex;
     flex-wrap: wrap;
+    text-shadow: 3em;
+    text-size-adjust: 0.60;
 }
 
 .flex-item-left {
